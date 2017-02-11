@@ -27,6 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/HomeTabs"
+            android:textColor="#ffffff"
             android:text="@string/routes_tab" />
 
         <TextView
@@ -47,6 +48,5 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context="com.example.gurjitc96.menucrooze.MapsActivity" />
-        />
 
 </LinearLayout>
