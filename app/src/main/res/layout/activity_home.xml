@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "#ffffff"
+    android:layout_marginTop="0dp"
+    tools:context="com.example.gurjitc96.menucrooze.HomeActivity">
+
+    <TextView
+        android:id="@+id/home_tab"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:background = "#00C853"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="Home"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:id="@+id/routes_tab"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:background = "#00C853"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/home_tab"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="Routes"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:id="@+id/_tab"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:background = "#00C853"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/routes_tab"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="Weather"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"/>
+</LinearLayout>
