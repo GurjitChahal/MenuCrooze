@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Crooz</string>
+    <string name="social_tab">Social</string>
+    <string name="routes_tab">Routes</string>
+    <string name="weather_tab">Weather</string>
 </resources>
