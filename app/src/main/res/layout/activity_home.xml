@@ -10,6 +10,7 @@
     android:background = "#ffffff"
     android:layout_marginTop="0dp"
     tools:context="com.example.gurjitc96.menucrooze.HomeActivity">
+
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
